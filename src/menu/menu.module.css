@@ -1,0 +1,40 @@
+main {
+    padding-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../public/bg.jpg');
+    background-size: cover;
+    flex-direction: column;
+    padding-inline: 2rem;
+    height: 150vh;
+}
+
+p {
+    max-width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin: 1rem;
+}
+
+.text-block {
+    margin-top: 10rem;
+}

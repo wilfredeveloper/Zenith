@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 8rem;
+    position: fixed;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fffdfd;
+}
+
+ul {
+    margin-left: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+li a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-size: 0.85rem;
+}
